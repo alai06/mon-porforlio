@@ -1,0 +1,23 @@
+<header class="header">
+  <nav class="navbar">
+    <div class="logo">Portfolio</div>
+    
+    <div class="desktop-menu">
+      <a href="#accueil">Accueil</a>
+      <a href="#competences">Compétences</a>
+      <a href="#projets">Projets</a>
+      
+    </div>
+
+    <button class="mobile-toggle" (click)="toggleMenu()">
+      <span *ngIf="!menuOpen">☰</span>
+      <span *ngIf="menuOpen">✕</span>
+    </button>
+  </nav>
+
+  <div class="mobile-menu" *ngIf="menuOpen">
+    <a href="#accueil" (click)="closeMenu()">Accueil</a>
+    <a href="#projets" (click)="closeMenu()">Projets</a>
+    <a href="#competences" (click)="closeMenu()">Compétences</a>
+  </div>
+</header>

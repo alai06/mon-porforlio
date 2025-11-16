@@ -1,0 +1,79 @@
+.header {
+  position: fixed;
+  top: 0;
+  width: 98%;
+  background: rgba(15, 23, 42, 0.95);
+  backdrop-filter: blur(10px);
+  z-index: 1000;
+  border-bottom: 1px solid rgba(51, 65, 85, 0.5);
+}
+
+.navbar {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 1.5rem 1.5rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  font-size: 1.5rem;
+  font-weight: bold;
+  background: linear-gradient(to right, #22d3ee, #3b82f6);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.desktop-menu {
+  display: none;
+  gap: 2rem;
+}
+
+.desktop-menu a {
+  color: white;
+  text-decoration: none;
+  transition: color 0.3s;
+}
+
+.desktop-menu a:hover {
+  color: #22d3ee;
+}
+
+.mobile-toggle {
+  background: none;
+  border: none;
+  color: white;
+  font-size: 1.5rem;
+  cursor: pointer;
+}
+
+.mobile-menu {
+  background: rgb(30, 41, 59);
+  border-top: 1px solid rgb(51, 65, 85);
+  padding: 1.5rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.mobile-menu a {
+  color: white;
+  text-decoration: none;
+  transition: color 0.3s;
+}
+
+.mobile-menu a:hover {
+  color: #22d3ee;
+}
+
+@media (min-width: 768px) {
+  .desktop-menu {
+    display: flex;
+  }
+  .mobile-toggle {
+    display: none;
+  }
+}
