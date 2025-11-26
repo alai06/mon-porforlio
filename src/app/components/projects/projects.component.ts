@@ -23,7 +23,7 @@ export class ProjectsComponent implements OnInit {
       {
         title: 'MeteoApp',
         description: 'Application météo en temps réel permettant de consulter les prévisions météorologiques détaillées pour n\'importe quelle ville du monde',
-        tech: ['Angular', 'TypeScript', 'API Météo', 'RxJS'],
+        tech: ['HTML', 'CSS', 'JavaScript', 'Angular'],
         link: 'https://meteoapp13.netlify.app'
       },
       {
@@ -35,13 +35,13 @@ export class ProjectsComponent implements OnInit {
       {
         title: "Visualisation d'un jeu de données",
         description: 'Application web interactive pour visualiser et analyser un jeu de données complexe à l\'aide de graphiques dynamiques et de filtres personnalisés.',
-        tech: ['Angular', 'D3.js', 'TypeScript', 'HTML5', 'CSS3'],
+        tech: ['HTML', 'CSS', 'JavaScript (D3.js)'],
         link: 'https://tubular-panda-913f72.netlify.app/' 
       },
       {
         title: "Jeu en 2d multijoueur",
         description : "Création d’un jeu 2D multijoueur où jusqu’à 4 joueurs s’affrontent sur 20 niveaux avec obstacles.",
-        tech: ['JavaScript', 'HTML5', 'CSS3'],
+        tech: ['HTML', 'CSS', 'JavaScript'],
         link: 'https://alai06.github.io/Jeu-en-javascript/'
       }
 
